@@ -1,5 +1,5 @@
 # Single-cell-transcriptome-depression-classifier
-We finetuned a pretrained model to obtain a depression classification model using single-cell transcriptome and used in silico perturbation to identify key genes associated with depression.
+We finetuned a pretrained model (Geneformer https://www.nature.com/articles/s41586-023-06139-9) to obtain a depression classification model using single-cell transcriptome and used in silico perturbation to identify key genes associated with depression.
 
 
 1. depression.loom: This dataset was utilized for model training, encompassing single-nucleus transcriptomic data derived from the prefrontal cortex of both healthy individuals and those with major depressive disorder. This dataset obtained from GEO Datasets under the reference series GSE144136.(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136)
